@@ -1,7 +1,8 @@
 body {
   padding: 0%;
   margin: 0%;
-  background-image: url("./images/image2.jpg");
+  /* background-image: url("./images/image2.jpg"); */
+  overflow: auto;
   background-size: cover;
 }
 .container {
@@ -105,4 +106,23 @@ a:hover {
 }
 .typed-text {
   word-break: break-all;
+}
+.last {
+  display: flex;
+  /* justify-content: center; */
+  /* margin-top: 50%; */
+  padding-top: 40rem;
+  padding-left: 6rem;
+
+  /* bottom: 0; */
+}
+.b4,
+.b3,
+.b2,
+.b1 {
+  margin-left: 1rem;
+  height: 1rem;
+  width: 1rem;
+  /* background-color: #ccc; */
+  /* padding: 1rem; */
 }
