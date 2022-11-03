@@ -63,6 +63,7 @@ a:hover {
 .about {
   padding-top: 6rem;
   color: white;
+  font-size: large;
   text-decoration: wavy;
   font-size: large;
   font-family: "Montserrat", sans-serif;
@@ -99,8 +100,8 @@ a:hover {
   /* display: flex; */
   /* justify-content: flex-end; */
   /* text-align: end; */
-  overflow: hidden;
-  word-break: break-all;
+  overflow:visible;
+  word-break:keep-all;
 
   /* margin-left: 20rem; */
 }
@@ -125,4 +126,84 @@ a:hover {
   width: 1rem;
   /* background-color: #ccc; */
   /* padding: 1rem; */
+}
+.navigator{
+  display: none;
+}
+@media only screen and (max-width:830px ){
+.navigator{
+  display: flex;
+    color: white;
+    justify-content: flex-end;
+
+    padding-right: 2rem;
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  /* border: 1px solid black; */
+
+/* clip-path: polygon(0 28%, 100% 35%, 100% 100%, 0% 100%); */
+}
+.tabs{
+    
+    padding-top: 6rem;
+    /* margin: 0; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* padding: left 8rem ; */
+   
+}
+  
+.info {
+  display: grid;
+  grid-template-columns: auto auto;
+  position:none;
+  background-color: transparent;
+  clip-path: none;
+ 
+
+}
+.away{
+  /* display: none; */
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+.container{
+  padding: 0;
+  margin: 0;
+}
+
+.tabsinner{
+  display: flex;
+  /* display: none; */
+  flex-direction: column;
+  align-items: flex-end;
+  box-shadow: 10px 10px 5px lightblue;
+    border-radius: 4px;
+  
+}
+
+.about{
+  padding-top: 4rem;
+
+/* padding-left: 4rem;   */
+}
+.last{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: none;
+}
+.paragraph{
+}
+.tabs-none{
+  display: none;
+}
+a:hover{
+  background-color: transparent;
+
+}
+
 }
