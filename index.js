@@ -3,6 +3,9 @@ const button2 = document.querySelector(".b2");
 const button3 = document.querySelector(".b3");
 const button4 = document.querySelector(".b4");
 const body = document.querySelector("body");
+const navbar = document.querySelector("#navbar");
+const tabs = document.querySelector(".tabsinner");
+const about = document.querySelector(".about");
 
 const typedtextelement = document.querySelector(".typed-text");
 const breaking = `${"<br>"}`;
@@ -77,23 +80,37 @@ setInterval(() => {
     button2.style.backgroundColor = `white`;
     button3.style.backgroundColor = `white`;
     button4.style.backgroundColor = `white`;
+    about.style.color = "white";
   }
   if (body.style.backgroundImage == `url("./images/skies.jpg")`) {
     button2.style.backgroundColor = `aqua`;
     button1.style.backgroundColor = `white`;
     button3.style.backgroundColor = `white`;
     button4.style.backgroundColor = `white`;
+    about.style.color = "white";
   }
   if (body.style.backgroundImage == `url("./images/mountgreen.jpg")`) {
     button3.style.backgroundColor = `aqua`;
     button2.style.backgroundColor = `white`;
     button1.style.backgroundColor = `white`;
     button4.style.backgroundColor = `white`;
+    about.style.color = "black";
   }
   if (body.style.backgroundImage == `url("./images/image2.jpg")`) {
     button4.style.backgroundColor = `aqua`;
     button3.style.backgroundColor = `white`;
+    about.style.color = "white";
     button2.style.backgroundColor = `white`;
     button1.style.backgroundColor = `white`;
   }
 }, 5000);
+
+tabs.classList = "tabs-none";
+navbar.addEventListener("click", () => {
+  // console.log("clicked");
+  tabs.classList.toggle("tabs-none");
+  console.log(tabs.classList);
+  setTimeout(() => {
+    tabs.classList.toggle("tabs-none");
+  }, 5000);
+});
