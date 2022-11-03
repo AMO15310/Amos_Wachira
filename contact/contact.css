@@ -139,3 +139,29 @@
   /* position: fixed; */
   display: none;
 }
+@media only screen and (max-width:830px){
+  .ident{
+    display: none;
+  }
+  .link-me{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 1.5rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    /* padding: 2re; */
+  }
+  a{
+    padding: 0;
+  }
+  .last{
+    padding-top: 45rem;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    position: none;
+    /* padding-left: 5rem; */
+
+  }
+}
