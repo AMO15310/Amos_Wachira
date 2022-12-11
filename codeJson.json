@@ -1,0 +1,41 @@
+{
+  "workbench.colorTheme": "Material Night Eighties",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": false,
+  "workbench.colorCustomizations": {
+    "activityBar.border": "#00FF00",
+    "tab.activeBorder": "#00ff00",
+    "activityBar.foreground": "#00ff00",
+    "activityBar.inactiveForeground": "#fff"
+  },
+  "json.schemas": [
+  
+  ],
+  "editor.fontSize": 20,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "editor.fontFamily": "Consolas, 'Courier New', DejaVu Sans Mono",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.codeActionsOnSave": {
+    "editor.formatOnSave": true,
+
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
